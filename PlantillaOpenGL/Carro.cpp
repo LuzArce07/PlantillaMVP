@@ -10,6 +10,10 @@ void Carro::actualizarMatrizModelo() {
 
 }
 
+vec3 Carro::getCoordenadas() {
+	return coordenadas;
+}
+
 void Carro::avanzar() {
 
 	coordenadas.z += 0.01f;

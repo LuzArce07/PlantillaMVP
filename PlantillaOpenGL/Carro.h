@@ -12,6 +12,7 @@ public:
 	
 	void avanzar();
 	void rotar();
+	vec3 getCoordenadas();
 
 private:
 
